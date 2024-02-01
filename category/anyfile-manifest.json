@@ -1,0 +1,31 @@
+{
+  "data_stream": {
+    "category": "anyfile",
+    "name": "My file collection",
+    "creator": "Adam",
+    "created_on": "2023-12-15",
+    "last_modified_on": "2024-02-01",
+    "marshalManifest": {
+      "totalItems": 2,
+      "nestedStream": "true"
+    }
+  },
+  "data": [
+    {
+      "idx": 1,
+      "date": "2023-12-21T00:00:00.000Z",
+      "file": "https://ipfs.io/ipfs/QmVZewxJcR6Z21HMbsJfMuif8ci1KV7E79yBVAvTuULcPH/file.mp4",
+      "title": "My video",
+      "mimeType": "video/mp4",
+      "size": "10MB"
+    },
+    {
+      "idx": 2,
+      "date": "2023-12-21T00:00:00.000Z",
+      "file": "https://ipfs.io/ipfs/QmVZewxJcR6Z21HMbsJfMuif8ci1KV7E79yBVAvTuULcPH/foo.pdf",
+      "title": "My pdf doc",
+      "mimeType": "application/pdf",
+      "size": "2.5MB"
+    }
+  ]
+}
